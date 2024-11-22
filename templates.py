@@ -129,3 +129,120 @@ Detailed achievements:
 \bibliography{publications}
 
 \end{document}"""
+
+mohammad_resume = """
+Mohammad
+Mohammadi
+
+Senior Software Engineer
+Twickenham,
+Greater London, UK
+(+44)-77700-31702
+m@mohammadi.com
+mohammadi.com
+Mohammadi-com
+mohammadmohammadi
+Global Talent Visa Holder
+
+Experiences
+Nov2022
+May2024
+Software Development Engineer, Amadeus, London, UK
+Amadeus is a leading technology provider in the global travel industry, deliv-
+ering cutting-edge solutions, technology, and services to a wide array of travel
+providers, including airlines, hotels, and travel agencies. Contributions:
+Played an integral role in the core team that facilitated the migration of
+services from legacy systems to RESTful APIs.
+Developed custom features for Southwest Airlines using C++
+Successfully consolidated two highly coupled repositories, reducing pull re-
+quests by 30% and significantly enhancing our team’s overall eﬀiciency.
+Authored and executed regression tests using Pytest, ensuring the stability
+and reliability of our codebase.
+Enhanced system performance by integrating automated CI/CD pipelines
+using Jenkins.
+Utilized Jira and Bitbucket for eﬀicient task management and version control,
+ensuring project alignment with agile methodologies.
+Mentored and onboarded new team members, sharing knowledge and best
+practices to enhance team performance.
+Proposed and implemented a ”no meeting” policy for software engineers,
+which received strong support from management and team members, result-
+ing in a marked increase in productivity.
+
+May2021
+Nov2022
+Full Stack Engineer & Co-Founder, Zumud, Tallinn, Estonia
+Zumud was envisioned as a platform to redefine talent investment as an asset
+class, enabling investors to receive a fixed percentage of future income from
+talent over a specified term. Key achievements:
+Successfully developed a Minimum Viable Product (MVP) that allowed in-
+vestors to browse candidates and make investments.
+Automated key business processes, including transaction handling and re-
+porting, using Python scripts and third-party APIs.
+Designed and implemented cloud-based solutions for eﬀicient data storage
+and retrieval.
+Ensured the reliability of the platform by implementing automated testing
+frameworks.
+Due to regulatory changes in the European Union, we ultimately decided not
+to continue pursuing this idea.
+
+Jan2018
+Apr2021
+Full Stack Engineer & Founding Partner, ParadiseHub Coworking
+Space, Tehran, Iran
+ParadiseHub stands as Iran’s leading and largest co-working space and digital
+technology learning academy with 10 branches strategically located across the
+country. Responsibilities:
+Designed and implemented a scalable backend system for a web-based plat-
+form similar to Airbnb for booking co-working spaces.
+Managed a development team, emphasising code quality and scalability in
+web application development.
+Implemented cloud solutions to support the platform’s growing user base and
+data needs.
+
+
+Nov2016
+Nov2017
+Back-end Developer & Early Employee, Torob.com, Tehran, Iran
+Torob is the dominant price comparison search engine in Iran. Key acheivments:
+Developed and optimised backend systems using Django and Django REST
+Framework, that is working with more than 5 million visits per month and
+more than 20 million products.
+Built and maintained RESTful APIs that powered the core features of the
+price comparison engine.
+Worked with Django ORM to read from Redis database as in-memory
+database that used as a cache
+Implemented and maintained a content delivery network (CDN) to improve
+platform performance.
+Worked on automated systems for data extraction and processing using
+Scrapy framework.
+
+Education
+2013–2019 Bachelor’s Degree in Computer Engineering, Sharif University of
+Technology, Tehran, Iran
+Graduated top of my class from the leading IT Engineering program in Iran.
+
+Computer Skills
+Programming
+Languages
+Frameworks
+& APIs
+DevOps &
+Tools
+Python, C, C++, Java, SQL
+Django, Django REST Framework, FastAPI, Flask, RESTful APIs
+AWS, Docker, Jenkins, Git, Confluence, Jira, Bitbucket
+Testing
+Frameworks
+PyTest, UnitTest, Automated Testing with Python
+Backend PostgreSQL, MySQL, MongoDB, Redis
+Certifications
+2023 Certified SAFe® Practitioner
+
+Honors & Awards
+UK Global Talent Visa as a Recognised Leader in Digital Tech-
+nology (Exceptional Talent), TechNation, London, UK
+1st rank among B.Sc students of IT Engineering, Sharif University
+of Technology, Tehran, Iran
+Achieved the highest GPA among my peers.
+Dec 2023 Sep 2019 
+"""
