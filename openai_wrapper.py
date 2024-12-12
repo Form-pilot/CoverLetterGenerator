@@ -81,12 +81,12 @@ def ai_prompt(prompt: str, model=AIModel.gpt_4o_mini) -> str:
     )
     return completion.choices[0].message.content
 
-def create_tailored_plain_resume(resume: str, job_description: str, model=AIModel.gpt_4o_mini) -> str:
+def create_tailored_plain_resume(resume: str, job_description: str, model=AIModel.gpt_4o_mini, template: int = 1) -> str:
     completion = client.beta.chat.completions.parse(
         model=model,
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompts.create_tailored_resume.format(resume=resume, job_description=job_description)}
+            {"role": "user", "content": prompts.create_tailored_resume.format(resume=resume, job_description=job_description, num_pages=latex_template[template-1]['num_pages'])}
         ],
         response_format=TailoredResume
     )
@@ -94,10 +94,11 @@ def create_tailored_plain_resume(resume: str, job_description: str, model=AIMode
     logger.debug(f"The tailored CV plain text is: {tailored_resume}")
     return tailored_resume
 
-def covert_plain_resume_to_latex(plain_resume: str, model=AIModel.gpt_4o_mini):
+def covert_plain_resume_to_latex(plain_resume: str, model=AIModel.gpt_4o_mini, template: int = 1):
+
     messages=[
         {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": prompts.convert_plain_resume_to_latex.format(resume=plain_resume, latex_template=latex_template)}
+        {"role": "user", "content": prompts.convert_plain_resume_to_latex.format(num_pages=latex_template[template-1]['num_pages'], resume=plain_resume, latex_template=latex_template[template-1]['template'])}
     ]
     i = 1
     while i < 5: # and error in the code 
